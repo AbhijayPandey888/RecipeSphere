@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeSphere</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Recipe Sphere</h1>
+        <form>
+          <input
+            type="text"
+            placeholder="Search for recipes...."
+            class="searchBox"
+          />
+          <button type="submit" class="searchBtn">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="recipeContainer">
+          <h2>Search your favourite recipes</h2>
+        </div>
+      </section>
+    </main>
+    <div class="recipe-details">
+      <button
+        class="recipe-close-btn"
+        type="button"
+        aria-label="Close recipe details"
+        title="Close recipe details"
+      >
+        <i class="fa-solid fa-3x fa-xmark"></i>
+      </button>
+      <div class="recipe-details-content"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
